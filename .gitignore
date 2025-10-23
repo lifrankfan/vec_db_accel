@@ -1,0 +1,29 @@
+# Quartus intermediate directories
+db/
+incremental_db/
+*.qws
+*.qdo
+*.qlog
+analysis/
+fitter/
+simulation/
+output_files/
+
+# Generated bitstreams (optional)
+*.sof
+*.pof
+*.rbf
+*.jic
+
+# Tool backups / autosave
+*.rec
+*.bak
+*.old
+
+# Temporary or log files
+*.lst
+*.log
+*.rpt
+
+# Maybe exclude machine-specific or tool caches
+.ipcache/
